@@ -3,7 +3,7 @@
 
 This library contains P10 led panel drive library.
 
-**NOTE:** This is is tested at **STM32F407VTG6** Discovery Board.
+**NOTE:** This library is tested at **STM32F407VTG6** Discovery Board.
 
 # Contents
 - [Package Description](#package-description)
