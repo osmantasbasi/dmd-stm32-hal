@@ -9,7 +9,8 @@ This library contains P10 led panel drive library.
 - [Package Description](#package-description)
 - [Configuration](#configuration)
 - [Output](#output)
-- [Donate]()
+- [Contact Me]()
+- [Donate](#donation)
 
 
 
@@ -101,8 +102,12 @@ This library contains P10 led panel drive library.
 
 
 
+# 📬 Contact Me
+Feel free to reach out to me via the following platforms:
 
-
+[![LinkedIn](https://img.shields.io/badge/%40-Linkedin-blue)](https://www.linkedin.com/in/osmantasbasi/)
+[![Email](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:osman.tasbasi@inorobotics.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/osmantasbasi)
 # Donation
 It took me a lot of time to search and write this library. If my work helps you, you can donate it in the below.
 
