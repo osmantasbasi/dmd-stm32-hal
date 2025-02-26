@@ -113,6 +113,6 @@ It took me a lot of time to search and write this library. If my work helps you,
 
 **BEP20 Binance USDT Network**
 
-![donate_qr](images/donate.jpeg)
+![donate_qr](images/donate_small.jpeg)
 
 
