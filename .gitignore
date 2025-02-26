@@ -1,0 +1,15 @@
+.vscode
+*pyc
+venv
+/Core/Src/main.c
+/Core/Src/stm32f4xx_hal_msp.c
+/Core/Src/stm32f4xx_it.c
+/Core/Src/system_stm32f4xx.c
+
+/Core/Inc/main.h
+/Core/Inc/stm32f4xx_hal_conf.h
+/Core/Inc/stm32f4xx_it.h
+/Core/Inc/system_stm32f4xx.h
+
+/Drivers
+/MDK-ARM
