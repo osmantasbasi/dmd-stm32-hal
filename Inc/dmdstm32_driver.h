@@ -109,11 +109,11 @@ extern SPI_HandleTypeDef PANEL_SPI;
 #define LIGHT_DMD_ROW_03_07_11_15()       { HAL_GPIO_WritePin(PIN_DMD_B_Port, PIN_DMD_B, GPIO_PIN_SET);   HAL_GPIO_WritePin(PIN_DMD_A_Port, PIN_DMD_A, GPIO_PIN_RESET); }
 #define LIGHT_DMD_ROW_04_08_12_16()       { HAL_GPIO_WritePin(PIN_DMD_B_Port, PIN_DMD_B, GPIO_PIN_SET);   HAL_GPIO_WritePin(PIN_DMD_A_Port, PIN_DMD_A, GPIO_PIN_SET); }
 #define LATCH_DMD_SHIFT_REG_TO_OUTPUT()   { HAL_GPIO_WritePin(PIN_DMD_SCLK_Port, PIN_DMD_SCLK, GPIO_PIN_SET); HAL_GPIO_WritePin(PIN_DMD_SCLK_GPIO_Port, PIN_DMD_SCLK, GPIO_PIN_RESET); }
-// #define OE_DMD_ROWS_OFF()                 { __HAL_TIM_SET_COMPARE(&OE_HTIM, OE_TIM_CHANNEL, (OE_HTIM.Init.Period * 0) / 100); }
-// #define OE_DMD_ROWS_ON()                  { __HAL_TIM_SET_COMPARE(&OE_HTIM, OE_TIM_CHANNEL, (OE_HTIM.Init.Period * 100) / 100); }
+#define OE_DMD_ROWS_OFF()                 { __HAL_TIM_SET_COMPARE(&OE_HTIM, OE_TIM_CHANNEL, (OE_HTIM.Init.Period * 0) / 100); }
+#define OE_DMD_ROWS_ON()                  { __HAL_TIM_SET_COMPARE(&OE_HTIM, OE_TIM_CHANNEL, (OE_HTIM.Init.Period * 100) / 100); }
 
-#define OE_DMD_ROWS_OFF()                 { HAL_GPIO_WritePin(PIN_DMD_nOE_Port, PIN_DMD_nOE_Pin, GPIO_PIN_RESET); }
-#define OE_DMD_ROWS_ON()                  { HAL_GPIO_WritePin(PIN_DMD_nOE_Port, PIN_DMD_nOE_Pin, GPIO_PIN_SET); }
+// #define OE_DMD_ROWS_OFF()                 { HAL_GPIO_WritePin(PIN_DMD_nOE_Port, PIN_DMD_nOE_Pin, GPIO_PIN_RESET); }
+// #define OE_DMD_ROWS_ON()                  { HAL_GPIO_WritePin(PIN_DMD_nOE_Port, PIN_DMD_nOE_Pin, GPIO_PIN_SET); }
 
 #define min(a,b) (((a) < (b)) ? (a) : (b))
 #define max(a,b) (((a) > (b)) ? (a) : (b))

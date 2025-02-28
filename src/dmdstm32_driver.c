@@ -97,7 +97,7 @@ void scanDisplayBySPI(void)
             HAL_SPI_Transmit(&PANEL_SPI, &byte4, 1, 100);
         }
 
-        OE_DMD_ROWS_OFF();
+        //OE_DMD_ROWS_OFF();
         LATCH_DMD_SHIFT_REG_TO_OUTPUT();
         switch (bDMDByte) {
         case 0:			// row 1, 5, 9, 13 were clocked out
@@ -117,7 +117,7 @@ void scanDisplayBySPI(void)
             bDMDByte=0;
             break;
         }
-        OE_DMD_ROWS_ON();
+        //OE_DMD_ROWS_ON();
     
 }
 
